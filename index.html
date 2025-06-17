@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caja Requisitos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Partículas de fondo -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Caja principal -->
+    <div class="ai-box" id="aiBox">
+        <div class="circuit-lines">
+            <div class="circuit-line"></div>
+            <div class="circuit-line"></div>
+        </div>
+        <h2>Ingeniería de Software</h2>
+        <p>Explora los conceptos fundamentales de desarrollo de software y metodologías de trabajo</p>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="ai-card">
+            <div class="card-circuits">
+                <div class="card-circuit"></div>
+                <div class="card-circuit"></div>
+            </div>
+
+            <button class="close-btn" id="closeBtn">&times;</button>
+
+            <div class="card-header">
+                <span class="card-icon" id="cardIcon">📋</span>
+                <h3 class="card-title" id="cardTitle">Título de la Tarjeta</h3>
+                <p class="card-description" id="cardDescription">Descripción de la tarjeta</p>
+            </div>
+
+            <div class="nav-arrows">
+                <div class="arrow" id="prevArrow">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
+                    </svg>
+                </div>
+
+                <div class="card-indicators" id="indicators"></div>
+
+                <div class="arrow" id="nextArrow">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
