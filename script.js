@@ -1,9 +1,15 @@
 // Datos de las tarjetas
 const cardsData = [
   {
-    title: "Requisitos Funcionales y No Funcionales",
+    title: "Requisitos Funcionales",
     description:
-      "Definen qué hace y cómo se comporta un sistema: Funcionales describen las funciones específicas del sistema (como iniciar sesión o generar reportes). No funcionales establecen criterios de calidad (como rendimiento, seguridad o usabilidad). Ejemplos: Funcional - 'El sistema debe permitir el ingreso con correo y contraseña'. No funcional - 'El sistema debe responder en menos de 2 segundos'.",
+      "Un requisito funcional es una descripción específica de lo que un sistema, software, producto o servicio debe hacer para cumplir con los objetivos establecidos y satisfacer las necesidades de los usuarios o del negocio.",
+    image: "📋",
+  },
+  {
+    title: "Requisitos No Funcionales",
+    description:
+      "Los requisitos no funcionales, son características y criterios que describen cómo debe ser el rendimiento, la seguridad, la usabilidad y otros aspectos de un sistema o software más allá de su funcionalidad básica.",
     image: "📋",
   },
   {
